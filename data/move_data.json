@@ -1,83 +1,80 @@
 {
-    "characters": [
-        {
-            "name": "A.K.I.",
-            "moves": [
-                {
-                    "name": "Standing Light Punch",
-                    "file_name": "",
-                    "on_hit": 4,
-                    "on_block": -1
-                },
-                {
-                    "name": "Standing Medium Punch",
-                    "file_name": "",
-                    "on_hit": 3,
-                    "on_block": -3
-                },
-                {
-                    "name": "Standing Heavy Punch",
-                    "file_name": "",
-                    "on_hit": 1,
-                    "on_block": -5
-                },
-                {
-                    "name": "Standing Light Kick",
-                    "file_name": "",
-                    "on_hit": 4,
-                    "on_block": -2
-                },
-                {
-                    "name": "Standing Medium Kick",
-                    "file_name": "",
-                    "on_hit": 6,
-                    "on_block": -2
-                },
-                {
-                    "name": "Standing Heavy Kick",
-                    "file_name": "",
-                    "on_hit": 4,
-                    "on_block": -3
-                },
-                {
-                    "name": "Crouching Light Punch",
-                    "file_name": "",
-                    "on_hit": 4,
-                    "on_block": -1
-                },
-                {
-                    "name": "Crouching Medium Punch",
-                    "file_name": "",
-                    "on_hit": 1,
-                    "on_block": -3
-                },
-                {
-                    "name": "Crouching Heavy Punch",
-                    "file_name": "",
-                    "on_hit": 27,
-                    "on_block": -8
-                },
-                {
-                    "name": "Crouching Light Kick",
-                    "file_name": "",
-                    "on_hit": 3,
-                    "on_block": -2
-                },
-                {
-                    "name": "Crouching Medium Kick",
-                    "file_name": "",
-                    "on_hit": 4,
-                    "on_block": -3
-                },
-                {
-                    "name": "Crouching Heavy Kick",
-                    "file_name": "",
-                    "on_hit": 0,
-                    "on_block": -3
-                }
 
-            ]
+    "name": "A.K.I.",
+    "moves": [
+        {
+            "name": "Standing Light Punch",
+            "file_name": "",
+            "on_hit": 4,
+            "on_block": -1
+        },
+        {
+            "name": "Standing Medium Punch",
+            "file_name": "",
+            "on_hit": 3,
+            "on_block": -3
+        },
+        {
+            "name": "Standing Heavy Punch",
+            "file_name": "",
+            "on_hit": 1,
+            "on_block": -5
+        },
+        {
+            "name": "Standing Light Kick",
+            "file_name": "",
+            "on_hit": 4,
+            "on_block": -2
+        },
+        {
+            "name": "Standing Medium Kick",
+            "file_name": "",
+            "on_hit": 6,
+            "on_block": -2
+        },
+        {
+            "name": "Standing Heavy Kick",
+            "file_name": "",
+            "on_hit": 4,
+            "on_block": -3
+        },
+        {
+            "name": "Crouching Light Punch",
+            "file_name": "",
+            "on_hit": 4,
+            "on_block": -1
+        },
+        {
+            "name": "Crouching Medium Punch",
+            "file_name": "",
+            "on_hit": 1,
+            "on_block": -3
+        },
+        {
+            "name": "Crouching Heavy Punch",
+            "file_name": "",
+            "on_hit": 27,
+            "on_block": -8
+        },
+        {
+            "name": "Crouching Light Kick",
+            "file_name": "",
+            "on_hit": 3,
+            "on_block": -2
+        },
+        {
+            "name": "Crouching Medium Kick",
+            "file_name": "",
+            "on_hit": 4,
+            "on_block": -3
+        },
+        {
+            "name": "Crouching Heavy Kick",
+            "file_name": "",
+            "on_hit": 0,
+            "on_block": -3
         }
+
     ]
 
 }
