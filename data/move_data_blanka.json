@@ -4,73 +4,73 @@
     "moves": [
         {
             "name": "Standing Light Punch",
-            "file_name": "Blanka_5lp",
+            "file_name": "Blanka_5lp.png",
             "on_hit": "+3",
             "on_block": "-3"
         },
         {
             "name": "Standing Medium Punch",
-            "file_name": "Blanka_5mp",
+            "file_name": "Blanka_5mp.png",
             "on_hit": "+3",
             "on_block": "-4"
         },
         {
             "name": "Standing Heavy Punch",
-            "file_name": "Blanka_5hp",
+            "file_name": "Blanka_5hp.png",
             "on_hit": "+3",
             "on_block": "-3"
         },
         {
             "name": "Standing Light Kick",
-            "file_name": "Blanka_5lk",
+            "file_name": "Blanka_5lk.png",
             "on_hit": "+5",
             "on_block": "-2"
         },
         {
             "name": "Standing Medium Kick",
-            "file_name": "Blanka_5mk",
+            "file_name": "Blanka_5mk.png",
             "on_hit": "+4",
             "on_block": "-2"
         },
         {
             "name": "Standing Heavy Kick",
-            "file_name": "Blanka_5hk",
+            "file_name": "Blanka_5hk.png",
             "on_hit": "+6",
             "on_block": "-4"
         },
         {
             "name": "Crouching Light Punch",
-            "file_name": "Blanka_2lp",
+            "file_name": "Blanka_2lp.png",
             "on_hit": "+4",
             "on_block": "-2"
         },
         {
             "name": "Crouching Medium Punch",
-            "file_name": "Blanka_2mp",
+            "file_name": "Blanka_2mp.png",
             "on_hit": "-1",
             "on_block": "-5"
         },
         {
             "name": "Crouching Heavy Punch",
-            "file_name": "Blanka_2hp",
+            "file_name": "Blanka_2hp.png",
             "on_hit": "0",
             "on_block": "-5"
         },
         {
             "name": "Crouching Light Kick",
-            "file_name": "Blanka_2lk",
+            "file_name": "Blanka_2lk.png",
             "on_hit": "+3",
             "on_block": "-3"
         },
         {
             "name": "Crouching Medium Kick",
-            "file_name": "Blanka_2mk",
+            "file_name": "Blanka_2mk.png",
             "on_hit": "+5",
             "on_block": "-5"
         },
         {
             "name": "Crouching Heavy Kick",
-            "file_name": "Blanka_2hk",
+            "file_name": "Blanka_2hk.png",
             "on_hit": "+25 (HKD)",
             "on_block": "-12"
         }

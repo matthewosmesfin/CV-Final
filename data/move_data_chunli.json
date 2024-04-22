@@ -4,73 +4,73 @@
     "moves": [
         {
             "name": "Standing Light Punch",
-            "file_name": "ChunLi_5lp",
+            "file_name": "ChunLi_5lp.png",
             "on_hit": "+5",
             "on_block": "-3"
         },
         {
             "name": "Standing Medium Punch",
-            "file_name": "ChunLi_5mp",
+            "file_name": "ChunLi_5mp.png",
             "on_hit": "+6",
             "on_block": "+1"
         },
         {
             "name": "Standing Heavy Punch",
-            "file_name": "ChunLi_5hp",
+            "file_name": "ChunLi_5hp.png",
             "on_hit": "+2",
             "on_block": "-4"
         },
         {
             "name": "Standing Light Kick",
-            "file_name": "ChunLi_5lk",
+            "file_name": "ChunLi_5lk.png",
             "on_hit": "+2",
             "on_block": "-2"
         },
         {
             "name": "Standing Medium Kick",
-            "file_name": "ChunLi_5mk",
+            "file_name": "ChunLi_5mk.png",
             "on_hit": "+4",
             "on_block": "-2"
         },
         {
             "name": "Standing Heavy Kick",
-            "file_name": "ChunLi_5hk",
+            "file_name": "ChunLi_5hk.png",
             "on_hit": "+4",
             "on_block": "0"
         },
         {
             "name": "Crouching Light Punch",
-            "file_name": "ChunLi_2lp",
+            "file_name": "ChunLi_2lp.png",
             "on_hit": "+4",
             "on_block": "-2"
         },
         {
             "name": "Crouching Medium Punch",
-            "file_name": "ChunLi_2mp",
+            "file_name": "ChunLi_2mp.png",
             "on_hit": "+4",
             "on_block": "-2"
         },
         {
             "name": "Crouching Heavy Punch",
-            "file_name": "ChunLi_2hp",
+            "file_name": "ChunLi_2hp.png",
             "on_hit": "+1",
             "on_block": "-3"
         },
         {
             "name": "Crouching Light Kick",
-            "file_name": "ChunLi_2lk",
+            "file_name": "ChunLi_2lk.png",
             "on_hit": "0",
             "on_block": "-2"
         },
         {
             "name": "Crouching Medium Kick",
-            "file_name": "ChunLi_2mk",
+            "file_name": "ChunLi_2mk.png",
             "on_hit": "-2",
             "on_block": "-6"
         },
         {
             "name": "Crouching Heavy Kick",
-            "file_name": "ChunLi_2hk",
+            "file_name": "ChunLi_2hk.png",
             "on_hit": "+33 (HKD)",
             "on_block": "-7"
         }

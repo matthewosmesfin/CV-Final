@@ -33,8 +33,14 @@
             "on_block": "-3"
         },
         {
-            "name": "Standing Heavy Kick",
-            "file_name": "Ehonda_5hk.png",
+            "name": "Standing Heavy Kick (1)",
+            "file_name": "Ehonda_5hk1.png",
+            "on_hit": "-1",
+            "on_block": "-5(-11)"
+        },
+        {
+            "name": "Standing Heavy Kick (2)",
+            "file_name": "Ehonda_5hk2.png",
             "on_hit": "-1",
             "on_block": "-5(-11)"
         },

@@ -4,73 +4,73 @@
     "moves": [
         {
             "name": "Standing Light Punch",
-            "file_name": "DeeJay_5lp",
+            "file_name": "DeeJay_5lp.png",
             "on_hit": "+4",
             "on_block": "-1"
         },
         {
             "name": "Standing Medium Punch",
-            "file_name": "DeeJay_5mp",
+            "file_name": "DeeJay_5mp.png",
             "on_hit": "+5",
             "on_block": "+2"
         },
         {
             "name": "Standing Heavy Punch",
-            "file_name": "DeeJay_5hp",
+            "file_name": "DeeJay_5hp.png",
             "on_hit": "+3(+8)",
             "on_block": "-4(+1)"
         },
         {
             "name": "Standing Light Kick",
-            "file_name": "DeeJay_5lk",
+            "file_name": "DeeJay_5lk.png",
             "on_hit": "+2",
             "on_block": "-2"
         },
         {
             "name": "Standing Medium Kick",
-            "file_name": "DeeJay_5mk",
+            "file_name": "DeeJay_5mk.png",
             "on_hit": "+6",
             "on_block": "-1"
         },
         {
             "name": "Standing Heavy Kick",
-            "file_name": "DeeJay_5hk",
+            "file_name": "DeeJay_5hk.png",
             "on_hit": "+1",
             "on_block": "-5"
         },
         {
             "name": "Crouching Light Punch",
-            "file_name": "DeeJay_2lp",
+            "file_name": "DeeJay_2lp.png",
             "on_hit": "+4",
             "on_block": "-1"
         },
         {
             "name": "Crouching Medium Punch",
-            "file_name": "DeeJay_2mp",
+            "file_name": "DeeJay_2mp.png",
             "on_hit": "+4",
             "on_block": "-1"
         },
         {
             "name": "Crouching Heavy Punch",
-            "file_name": "DeeJay_2hp",
+            "file_name": "DeeJay_2hp.png",
             "on_hit": "+6",
             "on_block": "-2"
         },
         {
             "name": "Crouching Light Kick",
-            "file_name": "DeeJay_2lk",
+            "file_name": "DeeJay_2lk.png",
             "on_hit": "+2",
             "on_block": "-2"
         },
         {
             "name": "Crouching Medium Kick",
-            "file_name": "DeeJay_2mk",
+            "file_name": "DeeJay_2mk.png",
             "on_hit": "+29 (KD)",
             "on_block": "-6"
         },
         {
             "name": "Crouching Heavy Kick",
-            "file_name": "DeeJay_2hk",
+            "file_name": "DeeJay_2hk.png",
             "on_hit": "+33(+42) (HKD)",
             "on_block": "-11(-2)"
         }
