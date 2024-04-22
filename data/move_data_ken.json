@@ -1,0 +1,78 @@
+{
+
+    "name": "Ken",
+    "moves": [
+        {
+            "name": "Standing Light Punch",
+            "file_name": "Ken_5lp.png",
+            "on_hit": "+4",
+            "on_block": "-1"
+        },
+        {
+            "name": "Standing Medium Punch",
+            "file_name": "Ken_5mp.png",
+            "on_hit": "+4",
+            "on_block": "-2"
+        },
+        {
+            "name": "Standing Heavy Punch",
+            "file_name": "Ken_5hp.png",
+            "on_hit": "+3",
+            "on_block": "-2"
+        },
+        {
+            "name": "Standing Light Kick",
+            "file_name": "Ken_5lk.png",
+            "on_hit": "0",
+            "on_block": "-2"
+        },
+        {
+            "name": "Standing Medium Kick",
+            "file_name": "Ken_5mk.png",
+            "on_hit": "+3",
+            "on_block": "-5"
+        },
+        {
+            "name": "Standing Heavy Kick",
+            "file_name": "Ken_5hk.png",
+            "on_hit": "+1",
+            "on_block": "-5"
+        },
+        {
+            "name": "Crouching Light Punch",
+            "file_name": "Ken_2lp.png",
+            "on_hit": "+5",
+            "on_block": "-1"
+        },
+        {
+            "name": "Crouching Medium Punch",
+            "file_name": "Ken_2mp.png",
+            "on_hit": "+3",
+            "on_block": "0"
+        },
+        {
+            "name": "Crouching Heavy Punch",
+            "file_name": "Ken_2hp.png",
+            "on_hit": "+3",
+            "on_block": "-10"
+        },
+        {
+            "name": "Crouching Light Kick",
+            "file_name": "Ken_2lk.png",
+            "on_hit": "+1",
+            "on_block": "-3"
+        },
+        {
+            "name": "Crouching Medium Kick",
+            "file_name": "Ken_2mk.png",
+            "on_hit": "-2",
+            "on_block": "-6"
+        },
+        {
+            "name": "Crouching Heavy Kick",
+            "file_name": "Ken_2hk.png",
+            "on_hit": "+31 (HKD)",
+            "on_block": "-10"
+        }
+    ]
+}

@@ -1,80 +1,79 @@
 {
 
-    "name": "A.K.I.",
+    "name": "Dee Jay",
     "moves": [
         {
             "name": "Standing Light Punch",
-            "file_name": "A.K.I._5lp",
+            "file_name": "DeeJay_5lp",
             "on_hit": "+4",
             "on_block": "-1"
         },
         {
             "name": "Standing Medium Punch",
-            "file_name": "A.K.I._5mp",
-            "on_hit": "+3",
-            "on_block": "-3"
+            "file_name": "DeeJay_5mp",
+            "on_hit": "+5",
+            "on_block": "+2"
         },
         {
             "name": "Standing Heavy Punch",
-            "file_name": "A.K.I._5hp",
-            "on_hit": "+1",
-            "on_block": "-5"
+            "file_name": "DeeJay_5hp",
+            "on_hit": "+3(+8)",
+            "on_block": "-4(+1)"
         },
         {
             "name": "Standing Light Kick",
-            "file_name": "A.K.I._5lk",
-            "on_hit": "+4",
+            "file_name": "DeeJay_5lk",
+            "on_hit": "+2",
             "on_block": "-2"
         },
         {
             "name": "Standing Medium Kick",
-            "file_name": "A.K.I._5mk",
+            "file_name": "DeeJay_5mk",
             "on_hit": "+6",
-            "on_block": "-2"
+            "on_block": "-1"
         },
         {
             "name": "Standing Heavy Kick",
-            "file_name": "A.K.I._5hk",
-            "on_hit": "+4",
-            "on_block": "-3"
+            "file_name": "DeeJay_5hk",
+            "on_hit": "+1",
+            "on_block": "-5"
         },
         {
             "name": "Crouching Light Punch",
-            "file_name": "A.K.I._2lp",
+            "file_name": "DeeJay_2lp",
             "on_hit": "+4",
             "on_block": "-1"
         },
         {
             "name": "Crouching Medium Punch",
-            "file_name": "A.K.I._2mp",
-            "on_hit": "+1",
-            "on_block": "-3"
+            "file_name": "DeeJay_2mp",
+            "on_hit": "+4",
+            "on_block": "-1"
         },
         {
             "name": "Crouching Heavy Punch",
-            "file_name": "A.K.I._2hp",
-            "on_hit": "+27 (HKD)",
-            "on_block": "-8"
+            "file_name": "DeeJay_2hp",
+            "on_hit": "+6",
+            "on_block": "-2"
         },
         {
             "name": "Crouching Light Kick",
-            "file_name": "A.K.I._2lk",
-            "on_hit": "+3",
+            "file_name": "DeeJay_2lk",
+            "on_hit": "+2",
             "on_block": "-2"
         },
         {
             "name": "Crouching Medium Kick",
-            "file_name": "A.K.I._2mk",
-            "on_hit": "+4",
-            "on_block": "-3"
+            "file_name": "DeeJay_2mk",
+            "on_hit": "+29 (KD)",
+            "on_block": "-6"
         },
         {
             "name": "Crouching Heavy Kick",
-            "file_name": "A.K.I._2hk",
-            "on_hit": "0",
-            "on_block": "-3"
+            "file_name": "DeeJay_2hk",
+            "on_hit": "+33(+42) (HKD)",
+            "on_block": "-11(-2)"
         }
-
     ]
 
 }

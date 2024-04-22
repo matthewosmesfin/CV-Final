@@ -1,0 +1,79 @@
+{
+
+    "name": "Cammy",
+    "moves": [
+        {
+            "name": "Standing Light Punch",
+            "file_name": "Cammy_5lp",
+            "on_hit": "+5",
+            "on_block": "-2"
+        },
+        {
+            "name": "Standing Medium Punch",
+            "file_name": "Cammy_5mp",
+            "on_hit": "+6",
+            "on_block": "-1"
+        },
+        {
+            "name": "Standing Heavy Punch",
+            "file_name": "Cammy_5hp",
+            "on_hit": "+2",
+            "on_block": "-3"
+        },
+        {
+            "name": "Standing Light Kick",
+            "file_name": "Cammy_5lk",
+            "on_hit": "+2",
+            "on_block": "-3"
+        },
+        {
+            "name": "Standing Medium Kick",
+            "file_name": "Cammy_5mk",
+            "on_hit": "+3",
+            "on_block": "-4"
+        },
+        {
+            "name": "Standing Heavy Kick",
+            "file_name": "Cammy_5hk",
+            "on_hit": "+2",
+            "on_block": "-4"
+        },
+        {
+            "name": "Crouching Light Punch",
+            "file_name": "Cammy_2lp",
+            "on_hit": "+4",
+            "on_block": "-2"
+        },
+        {
+            "name": "Crouching Medium Punch",
+            "file_name": "Cammy_2mp",
+            "on_hit": "+5",
+            "on_block": "-2"
+        },
+        {
+            "name": "Crouching Heavy Punch",
+            "file_name": "Cammy_2hp",
+            "on_hit": "+5",
+            "on_block": "-2"
+        },
+        {
+            "name": "Crouching Light Kick",
+            "file_name": "Cammy_2lk",
+            "on_hit": "+7",
+            "on_block": "+1"
+        },
+        {
+            "name": "Crouching Medium Kick",
+            "file_name": "Cammy_2mk",
+            "on_hit": "+3",
+            "on_block": "-2"
+        },
+        {
+            "name": "Crouching Heavy Kick",
+            "file_name": "Cammy_2hk",
+            "on_hit": "+1",
+            "on_block": "-5"
+        }
+    ]
+
+}

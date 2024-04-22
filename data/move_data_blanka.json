@@ -1,0 +1,79 @@
+{
+
+    "name": "Blanka",
+    "moves": [
+        {
+            "name": "Standing Light Punch",
+            "file_name": "Blanka_5lp",
+            "on_hit": "+3",
+            "on_block": "-3"
+        },
+        {
+            "name": "Standing Medium Punch",
+            "file_name": "Blanka_5mp",
+            "on_hit": "+3",
+            "on_block": "-4"
+        },
+        {
+            "name": "Standing Heavy Punch",
+            "file_name": "Blanka_5hp",
+            "on_hit": "+3",
+            "on_block": "-3"
+        },
+        {
+            "name": "Standing Light Kick",
+            "file_name": "Blanka_5lk",
+            "on_hit": "+5",
+            "on_block": "-2"
+        },
+        {
+            "name": "Standing Medium Kick",
+            "file_name": "Blanka_5mk",
+            "on_hit": "+4",
+            "on_block": "-2"
+        },
+        {
+            "name": "Standing Heavy Kick",
+            "file_name": "Blanka_5hk",
+            "on_hit": "+6",
+            "on_block": "-4"
+        },
+        {
+            "name": "Crouching Light Punch",
+            "file_name": "Blanka_2lp",
+            "on_hit": "+4",
+            "on_block": "-2"
+        },
+        {
+            "name": "Crouching Medium Punch",
+            "file_name": "Blanka_2mp",
+            "on_hit": "-1",
+            "on_block": "-5"
+        },
+        {
+            "name": "Crouching Heavy Punch",
+            "file_name": "Blanka_2hp",
+            "on_hit": "0",
+            "on_block": "-5"
+        },
+        {
+            "name": "Crouching Light Kick",
+            "file_name": "Blanka_2lk",
+            "on_hit": "+3",
+            "on_block": "-3"
+        },
+        {
+            "name": "Crouching Medium Kick",
+            "file_name": "Blanka_2mk",
+            "on_hit": "+5",
+            "on_block": "-5"
+        },
+        {
+            "name": "Crouching Heavy Kick",
+            "file_name": "Blanka_2hk",
+            "on_hit": "+25 (HKD)",
+            "on_block": "-12"
+        }
+    ]
+
+}

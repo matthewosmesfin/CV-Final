@@ -1,0 +1,78 @@
+{
+
+    "name": "Guile",
+    "moves": [
+        {
+            "name": "Standing Light Punch",
+            "file_name": "Guile_5lp.png",
+            "on_hit": "+4",
+            "on_block": "-2"
+        },
+        {
+            "name": "Standing Medium Punch",
+            "file_name": "Guile_5mp.png",
+            "on_hit": "+6",
+            "on_block": "0"
+        },
+        {
+            "name": "Standing Heavy Punch",
+            "file_name": "Guile_5hp.png",
+            "on_hit": "-1",
+            "on_block": "-6"
+        },
+        {
+            "name": "Standing Light Kick",
+            "file_name": "Guile_5lk.png",
+            "on_hit": "+3",
+            "on_block": "-1"
+        },
+        {
+            "name": "Standing Medium Kick",
+            "file_name": "Guile_5mk.png",
+            "on_hit": "+1",
+            "on_block": "-4"
+        },
+        {
+            "name": "Standing Heavy Kick",
+            "file_name": "Guile_5hk.png",
+            "on_hit": "+3",
+            "on_block": "-4"
+        },
+        {
+            "name": "Crouching Light Punch",
+            "file_name": "Guile_2lp.png",
+            "on_hit": "+5",
+            "on_block": "-2"
+        },
+        {
+            "name": "Crouching Medium Punch",
+            "file_name": "Guile_2mp.png",
+            "on_hit": "+4",
+            "on_block": "-2"
+        },
+        {
+            "name": "Crouching Heavy Punch",
+            "file_name": "Guile_2hp.png",
+            "on_hit": "0",
+            "on_block": "-9"
+        },
+        {
+            "name": "Crouching Light Kick",
+            "file_name": "Guile_2lk.png",
+            "on_hit": "+1",
+            "on_block": "-5"
+        },
+        {
+            "name": "Crouching Medium Kick",
+            "file_name": "Guile_2mk.png",
+            "on_hit": "+4",
+            "on_block": "-5"
+        },
+        {
+            "name": "Crouching Heavy Kick",
+            "file_name": "Guile_2hk.png",
+            "on_hit": "+34 (HKD)",
+            "on_block": "-12"
+        }
+    ]
+}

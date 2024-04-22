@@ -1,0 +1,84 @@
+{
+
+    "name": "Jamie",
+    "moves": [
+        {
+            "name": "Standing Light Punch (DLO)",
+            "file_name": "Jamie_5lp_dl0.png",
+            "on_hit": "+5",
+            "on_block": "-0"
+        },
+        {
+            "name": "Standing Light Punch (DL1+)",
+            "file_name": "Jamie_5lp_dl1.png",
+            "on_hit": "+2",
+            "on_block": "-3"
+        },
+        {
+            "name": "Standing Medium Punch",
+            "file_name": "Jamie_5mp.png",
+            "on_hit": "+5",
+            "on_block": "+1"
+        },
+        {
+            "name": "Standing Heavy Punch",
+            "file_name": "Jamie_5hp.png",
+            "on_hit": "+1(+3)",
+            "on_block": "-3(-1)"
+        },
+        {
+            "name": "Standing Light Kick",
+            "file_name": "Jamie_5lk.png",
+            "on_hit": "+3",
+            "on_block": "-1"
+        },
+        {
+            "name": "Standing Medium Kick",
+            "file_name": "Jamie_5mk.png",
+            "on_hit": "+1",
+            "on_block": "-3"
+        },
+        {
+            "name": "Standing Heavy Kick",
+            "file_name": "Jamie_5hk.png",
+            "on_hit": "+1",
+            "on_block": "-5"
+        },
+        {
+            "name": "Crouching Light Punch",
+            "file_name": "Jamie_2lp.png",
+            "on_hit": "+5",
+            "on_block": "-1"
+        },
+        {
+            "name": "Crouching Medium Punch",
+            "file_name": "Jamie_2mp.png",
+            "on_hit": "+3",
+            "on_block": "0"
+        },
+        {
+            "name": "Crouching Heavy Punch",
+            "file_name": "Jamie_2hp.png",
+            "on_hit": "0",
+            "on_block": "-8"
+        },
+        {
+            "name": "Crouching Light Kick",
+            "file_name": "Jamie_2lk.png",
+            "on_hit": "+1",
+            "on_block": "-3"
+        },
+        {
+            "name": "Crouching Medium Kick",
+            "file_name": "Jamie_2mk.png",
+            "on_hit": "-1",
+            "on_block": "-6"
+        },
+        {
+            "name": "Crouching Heavy Kick",
+            "file_name": "Jamie_2hk.png",
+            "on_hit": "+33 (HKD)",
+            "on_block": "-10"
+        }
+    ]
+}

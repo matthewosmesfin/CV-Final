@@ -1,0 +1,78 @@
+{
+
+    "name": "Lily",
+    "moves": [
+        {
+            "name": "Standing Light Punch",
+            "file_name": "Lily_5lp.png",
+            "on_hit": "+6",
+            "on_block": "-1"
+        },
+        {
+            "name": "Standing Medium Punch",
+            "file_name": "Lily_5mp.png",
+            "on_hit": "+1",
+            "on_block": "-4"
+        },
+        {
+            "name": "Standing Heavy Punch",
+            "file_name": "Lily_5hp.png",
+            "on_hit": "0",
+            "on_block": "-5"
+        },
+        {
+            "name": "Standing Light Kick",
+            "file_name": "Lily_5lk.png",
+            "on_hit": "+1",
+            "on_block": "-4"
+        },
+        {
+            "name": "Standing Medium Kick",
+            "file_name": "Lily_5mk.png",
+            "on_hit": "+2",
+            "on_block": "-1"
+        },
+        {
+            "name": "Standing Heavy Kick",
+            "file_name": "Lily_5hk.png",
+            "on_hit": "+1",
+            "on_block": "-5"
+        },
+        {
+            "name": "Crouching Light Punch",
+            "file_name": "Lily_2lp.png",
+            "on_hit": "+5",
+            "on_block": "-1"
+        },
+        {
+            "name": "Crouching Medium Punch",
+            "file_name": "Lily_2mp.png",
+            "on_hit": "+1",
+            "on_block": "-3"
+        },
+        {
+            "name": "Crouching Heavy Punch",
+            "file_name": "Lily_2hp.png",
+            "on_hit": "0",
+            "on_block": "-2"
+        },
+        {
+            "name": "Crouching Light Kick",
+            "file_name": "Lily_2lk.png",
+            "on_hit": "+2",
+            "on_block": "-2"
+        },
+        {
+            "name": "Crouching Medium Kick",
+            "file_name": "Lily_2mk.png",
+            "on_hit": "+1",
+            "on_block": "-5"
+        },
+        {
+            "name": "Crouching Heavy Kick",
+            "file_name": "Lily_2hk.png",
+            "on_hit": "+32 (HKD)",
+            "on_block": "-12"
+        }
+    ]
+}
