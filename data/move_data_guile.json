@@ -69,8 +69,14 @@
             "on_block": "-5"
         },
         {
-            "name": "Crouching Heavy Kick",
-            "file_name": "Guile_2hk.png",
+            "name": "Crouching Heavy Kick (1)",
+            "file_name": "Guile_2hk1.png",
+            "on_hit": "+34 (HKD)",
+            "on_block": "-12"
+        },
+        {
+            "name": "Crouching Heavy Kick (2)",
+            "file_name": "Guile_2hk2.png",
             "on_hit": "+34 (HKD)",
             "on_block": "-12"
         }

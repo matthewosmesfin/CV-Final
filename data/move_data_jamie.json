@@ -27,8 +27,14 @@
             "on_block": "-3(-1)"
         },
         {
-            "name": "Standing Light Kick",
-            "file_name": "Jamie_5lk.png",
+            "name": "Standing Light Kick (1)",
+            "file_name": "Jamie_5lk1.png",
+            "on_hit": "+3",
+            "on_block": "-1"
+        },
+        {
+            "name": "Standing Light Kick (2)",
+            "file_name": "Jamie_5lk2.png",
             "on_hit": "+3",
             "on_block": "-1"
         },

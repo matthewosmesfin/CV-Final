@@ -27,8 +27,14 @@
             "on_block": "-3"
         },
         {
-            "name": "Standing Medium Kick",
-            "file_name": "Juri_5mk.png",
+            "name": "Standing Medium Kick (1)",
+            "file_name": "Juri_5mk1.png",
+            "on_hit": "+3",
+            "on_block": "-4"
+        },
+        {
+            "name": "Standing Medium Kick (2)",
+            "file_name": "Juri_5mk2.png",
             "on_hit": "+3",
             "on_block": "-4"
         },
