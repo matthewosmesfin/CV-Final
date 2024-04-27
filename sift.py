@@ -18,6 +18,11 @@ best_kp1 = None
 best_kp2 = None
 best_good = []
 
+# store for later
+on_hit = ''
+on_block = ''
+name = ''
+
 print("Sifting through all the images...")
 for root, dirs, files in os.walk("."):
     for directory in dirs:
@@ -56,22 +61,25 @@ print("Reading through the json files to find match, and post the on hit and on 
 for json_file in os.listdir("./data"):
     # Full path of the JSON file
     json_file_path = os.path.join("./", json_file)
+
+    # remove path file
+    best_match_filename = os.path.basename(best_match_filename)
+    print(best_match_filename)
     
     # Process the JSON file
     with open("./data/" + json_file, 'r') as f:
         try:
             data = json.load(f)
 
-            on_hit = ''
-            on_block = ''
-            name = ''
-
+            character = data.get("name")
             moves = data.get("moves", [])
             for move in moves:
                 if move['file_name'] == best_match_filename:
+                    print("entered")
+                    print(move['on_hit'], move['on_block'], move['name'])
                     on_hit = move['on_hit']
                     on_block = move['on_block']
-                    name = move['name']
+                    name = character + " " + move['name']
                     #print(m['name'])
                     #print(f"On Hit: {on_hit}    On Block: {on_block}")
                     break            
@@ -83,5 +91,7 @@ print("image found!")
 img3 = cv.drawMatchesKnn(query_img,best_kp1,best_match,best_kp2,best_good,None,flags=cv.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
 plt.imshow(img3)
 plt.title(name)
+print(on_hit)
+print(on_block)
 plt.xlabel(f"On Hit: {on_hit}    On Block: {on_block}")
 plt.show()
