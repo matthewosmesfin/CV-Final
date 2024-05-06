@@ -5,10 +5,55 @@ import os
 import json
 import sys
 import glob
+import scipy
+
+#filter additions
+sobel_x = np.array([
+      [1, 0, -1],
+      [2, 0, -2],
+      [1, 0, -1]
+])
+
+sobel_y = np.array([
+    [1, 2, 1],
+    [0, 0, 0],
+    [-1, -2, -1]
+])
+
+def get_gradient_mag(image):
+    Ix = scipy.signal.convolve(image, sobel_x, mode='same')
+    Iy = scipy.signal.convolve(image, sobel_y, mode='same')
+    image = np.sqrt(Iy**2 + Ix**2)
+    return image
+
+def gaussian_blur(image, filter_size, sigma):
+    assert(filter_size % 2 == 1)
+    h = (filter_size + 1)//2
+    d = np.arange(h)
+    d = np.concatenate((d[::-1], d[1:]))
+    d = d[:, np.newaxis]
+    d_sq = d**2 + d.T ** 2
+    # Take the gaussian
+    g = np.exp(-d_sq/2/(sigma**2))
+    # Normalize
+    g = g/g.sum().sum()
+    image = scipy.signal.convolve(image, g, mode='same')
+    return image
+
 
 input = sys.argv[1]
 
 query_img = cv.imread(input,cv.IMREAD_GRAYSCALE)
+
+# ADD GAUSS BLUR
+#query_img = gaussian_blur(query_img, 51, 3)
+#cv.imwrite('query.png', query_img)
+#query_img = cv.imread("query.png",cv.IMREAD_GRAYSCALE)
+
+# ADD GRADIENT MAG
+#query_img = get_gradient_mag(query_img)
+#cv.imwrite('query.png', query_img)
+#query_img = cv.imread("query.png",cv.IMREAD_GRAYSCALE)
 
 best_matches = 0
 best_match = None
@@ -26,13 +71,24 @@ name = ''
 print("Sifting through all the images...")
 for root, dirs, files in os.walk("."):
     for directory in dirs:
-        if directory.endswith("_images"):
+        if directory.endswith("deejay_images"): #change this back
             dir_path = os.path.join(root, directory)
 
             image_files = glob.glob(os.path.join(dir_path, "*"))
     
             for image_file in image_files:
                 check_img = cv.imread((image_file),cv.IMREAD_GRAYSCALE)
+
+                # ADD GAUSS BLUR
+                #check_img = gaussian_blur(check_img, 51, 3)
+                #cv.imwrite('check.png', check_img)
+                #check_img = cv.imread("check.png",cv.IMREAD_GRAYSCALE)
+
+                # ADD GRADIENT MAG
+                #check_img = get_gradient_mag(check_img)
+                #cv.imwrite('check.png', check_img)
+                #check_img = cv.imread("check.png",cv.IMREAD_GRAYSCALE)
+
                 # Initiate SIFT detector
                 sift = cv.SIFT_create()
                 # find the keypoints and descriptors with SIFT
@@ -44,7 +100,7 @@ for root, dirs, files in os.walk("."):
                 # Apply ratio test
                 good = []
                 for m,n in matches:
-                    if m.distance < 0.75*n.distance:
+                    if m.distance < 0.65*n.distance:
                         good.append([m])
                 # cv.drawMatchesKnn expects list of lists as matches.
 
